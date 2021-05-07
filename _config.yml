@@ -50,3 +50,5 @@ exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'santa_hat.ico']
 
 future: false
 timezone: Asia/Shanghai
+
+disqus_shortname: unosanta
