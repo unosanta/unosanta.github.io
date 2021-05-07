@@ -1,0 +1,52 @@
+# Site settings
+title: Santa
+description: 'A Fanpage for Uno Santa'
+url: 'http://unosanta.github.io'
+baseurl: ''
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
+# disable_landing_page: true
+
+author:
+    name: 'Sybil'
+    email: santahouse0311@sina.com
+    github_username: unosanta
+    weibo_usesrname: santahouse
+
+idol:
+    instagram_username: into1_santa_
+    twitter_username: SANTADANCE_
+    weibo_userid: 7155113315
+    super_topic: https://weibo.com/p/100808922c80977653d579143a0afee38cd607/
+
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+plugins: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'santa_hat.ico']
+
+future: false
+timezone: Asia/Shanghai

@@ -1,0 +1,13 @@
+_site
+_posts
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+Gemfile.lock
+
+# under construction
+404.html
