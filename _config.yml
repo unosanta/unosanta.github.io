@@ -4,7 +4,7 @@ description: 'A Fanpage for Uno Santa'
 url: 'http://unosanta.github.io'
 baseurl: ''
 # google_analytics: 'UA-XXXXXX-X'
-# disqus_shortname: 'your-disqus-name'
+disqus_shortname: 'unosanta'
 # disable_landing_page: true
 
 author:
@@ -34,10 +34,8 @@ paginate: 10
 permalink: /:year/:title/
 markdown: kramdown
 highlighter: rouge
-
-sass:
-    sass_dir: _sass
-    style: compressed
+future: false
+timezone: Asia/Shanghai
 
 kramdown:
   # use Github Flavored Markdown
@@ -45,10 +43,10 @@ kramdown:
   # do not replace newlines by <br>s
   hard_wrap: false
 
+sass:
+    sass_dir: _sass
+    style: compressed
+
 plugins: ['jekyll-paginate']
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'santa_hat.ico']
 
-future: false
-timezone: Asia/Shanghai
-
-disqus_shortname: unosanta

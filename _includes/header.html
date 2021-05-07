@@ -4,33 +4,31 @@
 </span>
 
 <header id="panel" class="panel-cover {% if site.disable_landing_page %}panel-cover--collapsed{% endif %}">
-<!--   <header class="panel-cover {% if site.disable_landing_page %}panel-cover--collapsed{% endif %}"
-    style="background-image: url({{ site.baseurl }}/images/covers/dancestudio1.jpg)"> -->
-  <script type="text/javascript" src="{{ site.baseurl }}/js/main.js"></script>
+<!--   style="background-image: url({{ site.baseurl }}/images/covers/dancestudio1.jpg)"> -->
+  <script type="text/javascript" src="{{ site.baseurl }}/js/jquery.min.js"></script>
+  <script type="text/javascript" src="{{ site.baseurl }}/js/home.js"></script>
 
   <div class="panel-main">
     <div class="panel-main__inner panel-inverted">
       <div class="panel-main__content">
         <a href="{{ site.baseurl }}/" title="link to home of {{ site.title }}">
           <div class="ih-item circle effect right_to_left">            
-              <a href="" title="" class="blog-button">
                   <div class="img"><img src="{{ site.baseurl }}/images/logo-into1.jpg" alt="My Profile Photo" class="js-avatar profilepic"></div>
                   <div class="info">
                       <div class="info-back">
                           <img src="{{ site.baseurl }}/images/logo-wp.jpg" class="js-avatar profilepic">
                       </div>
                   </div>
-              </a>
           </div>
           <!-- <img src="{{ site.baseurl }}/images/logo-wp.jpg" class="user-image" alt="My Profile Photo"> -->
-        </a>
         <h1 class="panel-cover__title panel-title iUp">{{ site.title }}</h1>  
+        </a>
         <hr class="panel-cover__divider iUp">
         <p class="panel-cover__description iUp">{{ site.description }}</p>
         <hr class="panel-cover__divider iUp panel-cover__divider--secondary">
 
         <div class="navigation-wrapper iUp">
-          <div>
+          
           <nav class="cover-navigation cover-navigation--primary">
             <ul class="navigation">
               <li class="navigation__item"><a href="{{ site.baseurl }}/career" class="blog-button">CAREER</a></li>
@@ -39,7 +37,7 @@
               <li class="navigation__item"><a href="{{ site.baseurl }}/domain" class="blog-button">DOMAIN</a></li>
             </ul>
           </nav>
-        </div>
+        
           <div class="iUp">
           <nav class="cover-navigation navigation--social">
             <ul class="navigation">
@@ -122,7 +120,6 @@
   </div>
 </header>
 
-<script type="text/javascript" src="{{ site.baseurl }}/js/jquery.min.js"></script>
 <script type="text/javascript" src="{{ site.baseurl }}/js/fetch.min.js"></script>
 <script type='text/javascript' src='{{ site.baseurl }}/js/chickendinner.js'></script>
 <div class="js-chickendinner-bg"></div>

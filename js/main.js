@@ -48,11 +48,13 @@ $(document).ready(function () {
   })
 
   if (window.location.hash && window.location.hash == '#blog') {
-    $('.panel-cover').addClass('panel-cover--collapsed')
+    $('.panel-cover').addClass('panel-cover--collapsed')    
+    $('.content-wrapper__inner').css('display', 'block')
   }
 
   if (window.location.pathname !== '{{ site.baseurl }}/' && window.location.pathname !== '{{ site.baseurl }}/index.html') {
     $('.panel-cover').addClass('panel-cover--collapsed')
+    $('.content-wrapper__inner').css('display', 'block')
   }
   {% endif %}
 
