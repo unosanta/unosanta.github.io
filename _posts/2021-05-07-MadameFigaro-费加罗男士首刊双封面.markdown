@@ -20,9 +20,7 @@ tags: [INTO1]
 
 <br/>
 
-![1]({{"https:\/\/wx4.sinaimg.cn\/large\/006gWHNZgy1gq97uzrp05j30u0129kjn.jpg" | absolute_url }})
-
-![2](https://wx4.sinaimg.cn//large//006gWHNZgy1gq97uzrp05j30u0129kjn.jpg)
+![1](https://wx4.sinaimg.cn//large//006gWHNZgy1gq97uzrp05j30u0129kjn.jpg)
 
 ****
 
