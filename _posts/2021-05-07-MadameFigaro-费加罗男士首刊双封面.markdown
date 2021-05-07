@@ -22,6 +22,8 @@ tags: [INTO1]
 
 ![1]({{"https:\/\/wx4.sinaimg.cn\/large\/006gWHNZgy1gq97uzrp05j30u0129kjn.jpg" | absolute_url }})
 
+![2](https://wx4.sinaimg.cn//large//006gWHNZgy1gq97uzrp05j30u0129kjn.jpg)
+
 ****
 
 Link: [#费加罗男士# #INTO1费加罗男士首刊双封面#... 来自MadameFigaro中文版 - 微博 (weibo.com)](https://www.weibo.com/5747209783/Kel3MFvoP)
