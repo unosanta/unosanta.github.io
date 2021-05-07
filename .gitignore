@@ -7,7 +7,7 @@ _site
 .DS_Store
 Thumbs.db
 Gemfile.lock
-images/favioncs-template
+images/favicons-template
 
 # under construction
 404.html
