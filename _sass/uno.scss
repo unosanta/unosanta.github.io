@@ -920,9 +920,9 @@ body {
 
 @font-face {
   font-family: 'iconfont';  /* Project id 2524881 */
-  src: url('//at.alicdn.com/t/font_2524881_wn2i2yxda4f.woff2?t=1620363922367') format('woff2'),
-       url('//at.alicdn.com/t/font_2524881_wn2i2yxda4f.woff?t=1620363922367') format('woff'),
-       url('//at.alicdn.com/t/font_2524881_wn2i2yxda4f.ttf?t=1620363922367') format('truetype');
+  src: url('//at.alicdn.com/t/font_2524881_lu5jkur3wf.woff2?t=1620381349609') format('woff2'),
+       url('//at.alicdn.com/t/font_2524881_lu5jkur3wf.woff?t=1620381349609') format('woff'),
+       url('//at.alicdn.com/t/font_2524881_lu5jkur3wf.ttf?t=1620381349609') format('truetype');
 }
 
 .iconfont {
@@ -950,6 +950,8 @@ body {
 .icon-list:before { content: "\e76f"; }
 
 .icon-angleup:before { content: "\e617"; }
+
+.icon-angledown:before { content: "\e9bd"; }
 
 
 html, body {
@@ -1408,7 +1410,7 @@ hr {
 	left: 0;
 	width: 100%;
 	height: 42px;
-	background: rgba(0, 0, 0, 0.40);
+	background: rgba(51, 51, 51, 0.98);
 	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 	text-align: center; }
 
