@@ -8,7 +8,6 @@ _site
 Thumbs.db
 Gemfile.lock
 images/favicons-template/*
-_posts/201*
 
 # under construction
 404.html
