@@ -18,3 +18,4 @@ This is a fanpage for [Uno Santa](https://www.instagram.com/into1_santa_/). Plea
 - [ ] 404 page design
 - [ ] Media
 - [ ] News: scrape weibo data
+- [ ] Post refreshing bug
